@@ -4,7 +4,7 @@ const app = express();
 const jobsRouter = require('./routes/jobs');
 
 app.use(express.json());
-app.use(cors({ origin: 'https://job-application-frontend-dvft.onrender.com' }));
+app.use(cors({ origin: 'https://job-application-frontend1.onrender.com' }));
 
 
 app.use('/api/jobs', jobsRouter);
